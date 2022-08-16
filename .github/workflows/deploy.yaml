@@ -1,0 +1,28 @@
+name: Deploy to Neocities
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '.gitignore'
+      - 'LICENSE'
+      - 'README.md'
+
+concurrency:
+  group: deploy-to-neocities
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build static site
+      uses: jerryjvl/jekyll-build-action@v1
+    - name: Deploy to neocities
+      uses: jonchang/deploy-neocities@master
+      with:
+        key: ${{ secrets.NEOCITIES_API_KEY }}
+        clean: true
+        dir: _site
