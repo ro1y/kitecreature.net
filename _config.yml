@@ -1,0 +1,5 @@
+title: "kitecreature.net"
+baseurl: ""
+url: "https://kitecreature.net"
+include:
+  - _pages
