@@ -11,7 +11,7 @@ box-sizing:border-box;
 }
 html{
 height:100%;
-cursor: url("/_cursors/kitecursor.png"), auto;
+cursor: url("/assets/cursors/kitecursor.png"), auto;
 font:12px sans-serif;
 background: url("/assets/images/rainy.gif");
 }
@@ -19,14 +19,16 @@ background: url("/assets/images/rainy.gif");
 
 a{
 text-decoration:none;
-cursor: url("/_cursors/kitepoint.png"), auto;
+cursor: url("/assets/cursors/kitepoint.png"), auto;
 }
-
-h1,h2{
+h1,h2,h3{
+	font-family: "SpicyTaste";
+}
+h2{font-size:2em;}
+h2,h1{text-align:center;}
+h1{
 	padding:4px;
-	text-align:center;
-	font-family:"SpicyTaste", sans-serif;
-	font-size:2em;
+	font-size:2.5em;
 }
 
 h1{font-size:2.5em;}
@@ -73,7 +75,37 @@ body{
 					max-width:100%;
 					padding:5px;
 				}
+				p{
+					padding:10px 0px;
+				}
+				img[alt$=">"] {
+					float: right;
+				}
+				img[alt$="<"] {
+					float: left;
+				}
 			}
+			a {
+				color:maroon;
+				position:relative;
+			}
+			a::before {
+				content: "";
+				position:absolute;
+				left: 50%;
+				bottom:-1px;
+				transform: translateX(-50%);
+				height:2px;
+				width:0px;
+				background:orange;
+				transition-duration:250ms;
+			}
+			a:hover {
+				&::before{
+					width:100%;
+				}
+			}
+			footer{display:flex;align-items:center;}
 		}
 	}
 	#mainSidebar{
@@ -110,6 +142,7 @@ body{
 					border-left-color:#93ac4e;
 				}
 			}
+			h2{font-family:"SpicyTaste", sans-serif;}
 			h3{
 				width:100%;
 				background: #f7e26b;
@@ -139,7 +172,7 @@ body{
 		}
 	}
 }
-@media only screen and (max-width:560px) {
+@media only screen and (max-width:640px) {
 	body{
 		display:flex;
 		flex-direction:column;
@@ -147,9 +180,6 @@ body{
 		#mainContent{
 			padding:30px 0px 0px 0px;
 			flex:1;
-			.content{
-
-			}
 		}
 		#mainSidebar{
 			.content{
