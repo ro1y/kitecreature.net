@@ -1,5 +1,6 @@
 title: "kitecreature.net"
 baseurl: ""
 url: "https://kitecreature.net"
-include:
-  - _pages
+include: [_pages]
+sass:
+  style: compressed
