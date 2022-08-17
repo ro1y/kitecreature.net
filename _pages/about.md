@@ -14,3 +14,8 @@ permalink: /about/
 **Animation:** I zwitch between zoftware a lot, but right now I uze Krita.  
 **Muzic:** LMMS  
 **Text Editor:** Neovim
+
+## Things I like
+**Music:** The Go! Team, Ginger Root, Crumb, Machine Girl  
+**Games:** Bug Fables: The Everlasting Sapling, *Minesweeper*  
+**Shows:** HfjONE, Inanimate Insanity
