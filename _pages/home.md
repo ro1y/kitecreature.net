@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Welcome!
-permalink: /
+permalink: /home/
 ---
 ![ Kite Creature Bouncy <](/assets/images/kite/bouncy.gif)
 &emsp;Welcome! My name iz Roly. It'z not exactly the bezt weather to be flying, zo itz nice to have zome company!  
