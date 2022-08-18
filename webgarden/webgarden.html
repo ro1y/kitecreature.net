@@ -2,3 +2,96 @@
 permalink: /webgarden.html
 ---
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=250, initial-scale=1.0">
+    <title>The web site of roly</title>
+    <style>
+    *{padding:0;margin:0;box-sizing:border-box;}
+    html{background-color:grey;}
+    body{background:blue;width:250px;height:250px;
+    background: linear-gradient(#9c2d08 33%, #27b507 33%, #27b507 66%, #ccac0e 66%) #d93a1a;
+	  background-size: 100px 100px;animation:awezome 4s 0s linear infinite;}
+    @keyframes awezome{
+    0%{
+    background-position: 0px 0px;
+    }
+    100%{
+    background-position: 0px 100px;
+    }
+    }
+    
+    #logo{
+      background:url('/LOGO.svg');
+      background-size:100% 100%;
+      height:32px;width:72px;
+      margin:auto;
+      position:fixed;
+      z-index:100;
+      top:5px;left:5px;
+    }
+    #kiteCreature{
+      background:url('/assets/images/kite/pot_kite.svg');
+      background-size:100% 100%;
+      height:320px;width:240px;
+      margin:auto;
+      position:relative;
+      top:10px;
+      animation:bounceup 0.5s cubic-bezier(0.320, 0.900, 0.645, 1.075) 1;
+    }
+    #kiteSmile{
+      background: url('/assets/images/kite/pot_smile.svg');
+      background-size: 100% 100%;
+      height: 48px;
+      width: 72px;
+      margin: auto;
+      position: relative;
+      top: 112px;
+      right: 8px;
+      opacity:0;
+      
+    }
+    body:hover #kiteSmile{
+      opacity:1;
+    }
+    #boing{
+      position:relative;
+            top:0;
+      left:0;
+    }
+    body:hover #boing{
+      animation:boing 0.3s 0s ease-in-out 1;
+    }
+    @keyframes bounceup{
+      0%{
+        top:250px; 
+      }
+
+      100%{top:10px;}
+    }
+    @keyframes boing{
+       0%{
+        top:0px; 
+       }
+       50%{
+        top:-10px; 
+       }
+       100%{
+        top:0px;
+       }
+    }
+    </style>
+  </head>
+  <body>
+    <a href="//roly.neocities.org/" target="_blank">
+    <div id="logo"></div>
+    <div id="boing">
+    <div id="kiteCreature">
+      <div id="kiteSmile"></div>
+    </div>
+    </div>
+    </a>
+  </body>
+</html>
