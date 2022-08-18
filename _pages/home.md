@@ -13,7 +13,7 @@ Feel free to take a look around!
 ---
 
 ### Status
-<div id="statuscafe" style="background: #fce144;margin: 10px;padding: 5px;border: 3px solid black;filter: drop-shadow(5px 5px rgba(0,0,0,0.533333));"><div id="statuscafe-username" style="color: #ba691f;">ro1y</div><div style="margin: 0 1em 0.5em 1em;" id="statuscafe-content">...</div></div><script src="https://status.cafe/current-status.js?name=ro1y" defer></script>
+<div id="statuscafe" style="padding:10px 0px;"><div id="statuscafe-username" style="color: #ba691f;font-weight:bold;">ro1y</div><div style="margin: 0 1em 0.5em 1em;" id="statuscafe-content">...</div></div><script src="https://status.cafe/current-status.js?name=ro1y" defer></script>
 
 ---
 
