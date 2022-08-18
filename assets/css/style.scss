@@ -84,6 +84,9 @@ body{
 				img[alt$="<"] {
 					float: left;
 				}
+				iframe{
+					margin:5px;
+				}
 			}
 			a {
 				color:maroon;
@@ -176,7 +179,7 @@ body{
 	body{
 		display:flex;
 		flex-direction:column;
-		height:100%;
+		min-height:100%;
 		#mainContent{
 			padding:30px 0px 0px 0px;
 			flex:1;
