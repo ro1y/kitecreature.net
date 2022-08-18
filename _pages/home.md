@@ -7,10 +7,19 @@ permalink: /home/
 &emsp;Welcome! My name iz Roly. It'z not exactly the bezt weather to be flying, zo itz nice to have zome company!  
 Feel free to take a look around!
 
-[🖊️ Zign my gueztbook!](https://roly.123guestbook.com/)
+[🖊️ Zign my gueztbook!](https://roly.123guestbook.com/)  
+[🌼Add to my textwall!](https://textwall.cc/~kitecreature)
 <div><br style="clear:both;"></div>
 ---
-## Webrings
+
+### Status
+<div id="statuscafe" style="background: #fce144;margin: 10px;padding: 5px;border: 3px solid black;filter: drop-shadow(5px 5px rgba(0,0,0,0.533333));"><div id="statuscafe-username" style="color: #ba691f;">ro1y</div><div style="margin: 0 1em 0.5em 1em;" id="statuscafe-content">...</div></div><script src="https://status.cafe/current-status.js?name=ro1y" defer></script>
+
+---
+
+### Webrings
 
 **Yesterweb:** [Back](https://webring.yesterweb.org/noJS/index.php?d=prev&url=https://kitecreature.net/%20) · [Random](https://webring.yesterweb.org/noJS/index.php?d=rand&url=https://kitecreature.net/%20) · [Next](https://webring.yesterweb.org/noJS/index.php?d=next&url=https://kitecreature.net/%20)  
 **Hotline:** [Back](https://hotlinewebring.club/kite/next) · [Next](https://hotlinewebring.club/kite/previous)
+
+
