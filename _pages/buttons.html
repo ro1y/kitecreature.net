@@ -1,0 +1,40 @@
+---
+layout: default
+title: Buttons
+permalink: /buttons/
+---
+<section>
+        <p style="text-align:center;">Buttonz, Microbarz, 88x31z, whatever they're called im putting them here</p>
+        </section>
+        <section>
+        <h2>Webzitez that inzpire me</h2>
+        <div style="text-align:center;">
+        <a href="https://nuange.neocities.org/" target="_blank"><img title="your webzite iz zo cuteee!!!" alt="Nuange" src="https://i.imgur.com/KLHiEr6.gif"></a>
+        <a href="https://dokodemo.neocities.org/"><img title="lizten, love your webzite but dizabling right click iz an odd choice" alt="Dokodemo" src="https://dokodemo.neocities.org/images/buttons/dokodemobutton3.gif"></a>
+        <a href="//sadgrl.online/" target="_blank"><img title="your webzite haz zoo many awezome and helpful rezourcez and the layout iz awezome too!!" src="https://sadgrl.online/images/homepage/button-new.gif" alt="Sadgrl"></a>
+        <a target="_blank" href="https://melonking.net"><img alt="Visit Melonking.Net!" title="A good looking webzite AND I can buy an empty packet of M&Mz?! AWEZOME!!" src="https://melonking.net/images/badges/MELON-BADGE-2.GIF"></a>
+        <a href="https://encounters-ltd.neocities.org/buttons/button3.gif"><img src="https://encounters-ltd.neocities.org/buttons/button3.gif"></a>
+<a href="https://marzka.cafe">
+    <img src="/assets/images/88x31/marzka_cafe_88x31.png" alt="marzka.cafe badge">
+</a>
+        
+</div>
+        </section>
+        <section>
+        <h2>A lot</h2>
+        <p>Like around 5000 88x31z. Quantity rather than quality here i juzt zcraped theze from every collection of buttonz i could find.</p>
+        <div style="max-width:480px;margin:auto;height:240px;border:3px solid black;text-align:center;overflow:auto;" id="8831box">
+        <button onclick="load8831()" style="margin:10px;padding:3px;border:3px solid black;border-radius:2px;background:0;">Click here to load a lot of 88x31z<br>(May be laggy)</button>
+        </div>
+        </section>
+    <script>
+    function load8831(){
+    fetch("https://raw.githubusercontent.com/ro1y/88x31s/master/.list.txt").then(data => {
+    data.text().then(text => {
+      document.getElementById("8831box").innerHTML=text.split("\n").map(x => `<img class="microbar" src="https://raw.githubusercontent.com/ro1y/88x31s/master/${x}" loading="lazy">`).join(" ");
+      });
+    }).catch(error => {
+      alert(error);
+    });
+    }
+    </script>
