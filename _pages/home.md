@@ -22,4 +22,7 @@ Feel free to take a look around!
 **Yesterweb:** [Back](https://webring.yesterweb.org/noJS/index.php?d=prev&url=https://kitecreature.net/%20) · [Random](https://webring.yesterweb.org/noJS/index.php?d=rand&url=https://kitecreature.net/%20) · [Next](https://webring.yesterweb.org/noJS/index.php?d=next&url=https://kitecreature.net/%20)  
 **Hotline:** [Back](https://hotlinewebring.club/kite/next) · [Next](https://hotlinewebring.club/kite/previous)
 
-
+[![ Jekyll ](/assets/images/88x31/jekyll.png)](https://jekyllrb.com/)
+![ Powered By Dr. Pepper ](/assets/images/88x31/drpepper.gif)
+[![ Jekyll ](/assets/images/88x31/roly-saynotoweb3.gif)](https://yesterweb.org/no-to-web3/)
+[![ Jekyll ](/assets/images/88x31/neocities.gif)](https://neocities.org/)
