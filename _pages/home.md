@@ -24,7 +24,8 @@ Feel free to take a look around!
 
 ---
 
+[![ Webmentions Supported ](https://webmentions.neocities.org/webmentions.png)](https://webmentions.neocities.org/)
 [![ Jekyll ](/assets/images/88x31/jekyll.png)](https://jekyllrb.com/)
 ![ Powered By Dr. Pepper ](/assets/images/88x31/drpepper.gif)
-[![ Jekyll ](/assets/images/88x31/roly-saynotoweb3.gif)](https://yesterweb.org/no-to-web3/)
-[![ Jekyll ](/assets/images/88x31/neocities.gif)](https://neocities.org/)
+[![ Say no to Web3 ](/assets/images/88x31/roly-saynotoweb3.gif)](https://yesterweb.org/no-to-web3/)
+[![ Neocities ](/assets/images/88x31/neocities.gif)](https://neocities.org/)
