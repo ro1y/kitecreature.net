@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: Links
+permalink: /links/
+---
 ## Monsters, Horror, Creaturues, and all that jazz
 - {% include button.md img="https://i.imgur.com/9UEbpn0.png" alt="creature feature button" url="https://creaturefeature.neocities.org" %} Creature Feature  
 A website about creatures!
