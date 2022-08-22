@@ -8,6 +8,7 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
+vertical-align: middle;
 }
 html{
 height:100%;
@@ -92,22 +93,7 @@ body{
 				color:maroon;
 				position:relative;
 			}
-			a::before {
-				content: "";
-				position:absolute;
-				left: 50%;
-				bottom:-1px;
-				transform: translateX(-50%);
-				height:2px;
-				width:0px;
-				background:orange;
-				transition-duration:250ms;
-			}
-			a:hover {
-				&::before{
-					width:100%;
-				}
-			}
+			a:hover{text-decoration: underline;}
 			footer{display:flex;align-items:center;}
 		}
 	}
