@@ -4,7 +4,7 @@ title: Links
 permalink: /links/
 ---
 ## Communities
-- {% include button.html img="https://yesterweb.org/img/Yesterweb_88x31.gif" alt="yesterweb button" url="https://yesterweb.org/" %} Yesterweb  
+- {% include button.html img="https://yesterweb.org/img/Yesterweb_88x31.gif" alt="yesterweb button" url="https://yesterweb.org/" %} **Yesterweb**  
 A site that is dedicated to a community (and a larger movement) about the internet how it's changed.
 
 ## Monsters, Horror, Creaturues, and all that jazz
