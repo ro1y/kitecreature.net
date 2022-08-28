@@ -23,9 +23,11 @@ Feel free to take a look around!
 **Hotline:** [Back](https://hotlinewebring.club/kite/next) · [Next](https://hotlinewebring.club/kite/previous)
 
 ---
-
+<p markdown="1" style="display:grid;grid-template-columns: repeat(auto-fill,minmax(100px,1fr));">
 [![ Webmentions Supported ](https://webmentions.neocities.org/webmentions.png)](https://webmentions.neocities.org/)
 [![ Jekyll ](/assets/images/88x31/jekyll.png)](https://jekyllrb.com/)
 ![ Powered By Dr. Pepper ](/assets/images/88x31/drpepper.gif)
 [![ Say no to Web3 ](/assets/images/88x31/roly-saynotoweb3.gif)](https://yesterweb.org/no-to-web3/)
 [![ Neocities ](/assets/images/88x31/neocities.gif)](https://neocities.org/)
+![ Autism NOW! ](/assets/images/88x31/AUTISMNOW.png)
+</p>

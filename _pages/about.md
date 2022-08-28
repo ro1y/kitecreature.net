@@ -18,4 +18,15 @@ permalink: /about/
 ## Things I like
 **Music:** The Go! Team, Ginger Root, Crumb, Machine Girl  
 **Games:** Bug Fables: The Everlasting Sapling, *Minesweeper*  
-**Shows:** HfjONE, Inanimate Insanity
+**Shows:** HfjONE, Inanimate Insanity  
+
+---
+
+<p markdown="1" style="display:grid;grid-template-columns: repeat(auto-fill,minmax(105px,1fr));">
+![cringe.png](/assets/images/stamps/cringe.png)
+![jumpingoutofswings.png](/assets/images/stamps/jumpingoutofswings.png)
+![nonhuman.gif](/assets/images/stamps/nonhuman.gif)
+![ptr 02.png](/assets/images/stamps/ptr%2002.png)
+![silly.png](/assets/images/stamps/silly.png)
+![spinning.gif](/assets/images/stamps/spinning.gif)
+</p>
