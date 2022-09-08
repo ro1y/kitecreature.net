@@ -1,15 +1,17 @@
 ---
 layout: default
-title: Welcome!
+title: 🦇Welcome!🦇
 permalink: /
 ---
-![ Kite Creature Bouncy <](/assets/images/kite/bouncy.gif)
+![ Kite Creature Bouncy <](/assets/images/kite/spiderkite.png)
 &emsp;Happy halloween! My name iz Roly. I'm ztill getting everything zet up for halloween. You know like getting candy, coztumez, etc.  
 &emsp;Feel free to look around though!
 
 [🖊️ Zign my gueztbook!](https://roly.123guestbook.com/)  
 [🌼Add to my textwall!](https://textwall.cc/~kitecreature)
-<div><br style="clear:both;"></div>
+<div style="position:relative;">
+<img src="/assets/images/pumpkin.gif" style="position:absolute;bottom:0;right:0">
+<br style="clear:both;"></div>
 ---
 
 ### Status
