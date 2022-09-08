@@ -16,7 +16,7 @@ permalink: /about/
 **Text Editor:** Neovim
 
 ## Things I like
-**Music:** The Go! Team, Ginger Root, Crumb, Machine Girl  
+**Music:** The Go! Team, Crumb, Ginger Root  
 **Games:** Bug Fables: The Everlasting Sapling, *Minesweeper*  
 **Shows:** HfjONE, Inanimate Insanity  
 
