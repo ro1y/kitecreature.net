@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Welcome!
-permalink: /home/
+permalink: /
 ---
 ![ Kite Creature Bouncy <](/assets/images/kite/bouncy.gif)
 &emsp;Happy halloween! My name iz Roly. I'm ztill getting everything zet up for halloween. You know like getting candy, coztumez, etc.  
