@@ -4,8 +4,8 @@ title: Welcome!
 permalink: /home/
 ---
 ![ Kite Creature Bouncy <](/assets/images/kite/bouncy.gif)
-&emsp;Welcome! My name iz Roly. It'z not exactly the bezt weather to be flying, zo itz nice to have zome company!  
-Feel free to take a look around!
+&emsp;Happy halloween! My name iz Roly. I'm ztill getting everything zet up for halloween. You know like getting candy, coztumez, etc.  
+&emsp;Feel free to look around though!
 
 [🖊️ Zign my gueztbook!](https://roly.123guestbook.com/)  
 [🌼Add to my textwall!](https://textwall.cc/~kitecreature)

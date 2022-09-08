@@ -1,0 +1,40 @@
+html
+	background: linear-gradient(#0000,#0008), url("/assets/images/backgrounds/halloween-ground.gif") bottom, url("/assets/images/backgrounds/halloween-moon.gif"), linear-gradient(#0000,#000e,#000f), url("/assets/images/backgrounds/halloween-stars.gif")
+	background-repeat: no-repeat, repeat-x, no-repeat, no-repeat, repeat
+	background-attachment: fixed
+
+body
+	#mainContent
+		.content
+			background: #211
+			color: #db6600
+			border-image-source: url("/assets/images/borders/halloween-border.svg")
+			h1, h2, h3
+				font-family: serif
+				letter-spacing: 0.2em
+			a
+				color: orangered
+	#mainSidebar
+		.content
+			background: #211
+			border-color: orangered
+			color: orange
+			h2
+				color: orangered
+			h3
+				background: #711e00
+			a
+				border: 0
+				border-radius: 2px
+				margin: 8px 4px
+				&:nth-child(even)
+					background: linear-gradient(90deg,#b55400 50%,#db6600 50%) 48px 48px
+					background-size: 48px
+
+				&:nth-child(odd)
+					background: linear-gradient(90deg,#ad2f00 50%,orangered 50%) 48px 48px
+					background-size: 48px
+			&:before
+				border-left-color: orangered
+			&:after
+				border-left-color: #211
