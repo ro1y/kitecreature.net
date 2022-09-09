@@ -3,30 +3,48 @@ layout: default
 title: Creatures
 permalink: /creatures/
 ---
-<div style="display:grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));">
-    <a style="text-align:center;" href="slug/">
-        <img src="/assets/images/creatures/slug.png" alt="Image of a slug monster thing" style="width:100%;">
-        <br>
-        Zlug Monzter Thing
+<div style="margin:20px;">
+    <img align="right" src="/assets/images/kite/spiderkiteegg.png">
+    <p>&emsp;Here are zome eggz i juzt took. Idk whatz in them you zhould take them yourzelf. Click one to hatch it in find out. I'm zure it'll be cool!<br>&emsp;Alzo pleaze dont take all of them. <i>I will be zad if you doooooooo</i></p>
+
+<br style="clear:both">
+</div>
+<style>
+    .egg{
+        display:inline-block;
+        position: relative;
+        min-width:64px;
+        width:96px;
+        height:64px;
+    }
+    .egg > img{
+        position: absolute;
+        bottom:0;left:0;right:0;
+        margin:auto;
+        min-width:43px;
+        width:43px;
+        transition-duration: 500ms;
+    }
+    .egg:hover > img{
+        width:64px;
+    }
+</style>
+<div style='width:calc(100% - 40px);aspect-ratio:2/1;border:3px solid;margin:20px;overflow: auto;display:flex;align-items: center;justify-content: center;flex-wrap: wrap;padding:20px 0;
+background: linear-gradient(#0000,#0008), url("/assets/images/backgrounds/halloween-ground.gif") bottom, linear-gradient(#0000,#000e,#000f), url("/assets/images/backgrounds/halloween-stars.gif");
+background-repeat: no-repeat, repeat-x, no-repeat, repeat;'>
+    <a style="text-align:center;" href="slug/" class="egg">
+        <img src="/assets/images/creatures/slug_egg.webp" alt="Image of a slug monster thing">
     </a>
-    <a style="text-align:center;" href="tau/">
-        <img src="/assets/images/creatures/tau.png" alt="Image of a taufly with a bow" style="width:100%;">
-        <br>
-        Taufliez
+    <a style="text-align:center;" href="tau/" class="egg">
+        <img src="/assets/images/creatures/tauegg.png" alt="Image of a taufly with a bow">
     </a>
-    <a style="text-align:center;" href="phii/">
-        <img src="/assets/images/creatures/phii.png" alt="Image of a phii" style="width:100%;">
-        <br>
-        Phiiz
+    <a style="text-align:center;" href="phii/" class="egg">
+        <img src="/assets/images/creatures/phii_egg.webp" alt="Image of a phii">
     </a>
-    <a style="text-align:center;" href="firework/">
-        <img src="/assets/images/creatures/firework.png" alt="Image of a firework creature" style="width:100%;">
-        <br>
-        Firework Creaturez
+    <a style="text-align:center;" href="firework/" class="egg">
+        <img src="/assets/images/creatures/firework_egg.webp" alt="Image of a firework creature">
     </a>
-    <a style="text-align:center;" href="paynti/">
-        <img src="/assets/images/creatures/paynti.png" alt="Image of a paynti" style="width:100%;">
-        <br>
-        Payntiz
+    <a style="text-align:center;" href="paynti/" class="egg">
+        <img src="/assets/images/creatures/paynti_egg.webp" alt="Image of a paynti">
     </a>
 </div>
