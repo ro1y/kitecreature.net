@@ -3,12 +3,7 @@ layout: default
 title: Creatures
 permalink: /creatures/
 ---
-<div style="margin:20px;">
-    <img align="right" src="/assets/images/kite/spiderkiteegg.png">
-    <p>&emsp;Here are zome eggz i juzt took. Idk whatz in them you zhould take them yourzelf. Click one to hatch it in find out. I'm zure it'll be cool!<br>&emsp;Alzo pleaze dont take all of them. <i>I will be zad if you doooooooo</i></p>
 
-<br style="clear:both">
-</div>
 <style>
     .egg{
         display:inline-block;
@@ -16,23 +11,32 @@ permalink: /creatures/
         min-width:64px;
         width:96px;
         height:64px;
+        background: radial-gradient(black 10%,#0000 55%);
+        background-position-x: 0% !important;
+        transition-duration: 500ms;
+        background-position-y: 0% !important;
+        background-size: 75% 50% !important;
+        background-position: bottom !important;
+        background-repeat: no-repeat !important;
     }
     .egg > img{
         position: absolute;
-        bottom:0;left:0;right:0;
+        bottom:10px;left:0;right:0;
         margin:auto;
         min-width:43px;
         width:43px;
-        transition-timing-function: cubic-bezier(.25,1.3,.68,1.43);
-        transition-duration: 500ms;
+        transition-duration: 100ms;
+        transition-timing-function: cubic-bezier(.22,.61,.36,1);
     }
     .egg:hover > img{
-        width:56px;
+        bottom:15px;
+    }
+    .egg:hover{
+    background: radial-gradient(black 10%,#0000 60%);
     }
 </style>
-<div style='width:calc(100% - 40px);aspect-ratio:2/1;border:3px solid;margin:20px;overflow: auto;display:flex;align-items: center;justify-content: center;flex-wrap: wrap;padding: 20px 0px 40px 0px;
-background: linear-gradient(#0000,#0008), url("/assets/images/backgrounds/halloween-ground.gif") bottom, linear-gradient(#0000,#000e,#000f), url("/assets/images/backgrounds/halloween-stars.gif");
-background-repeat: no-repeat, repeat-x, no-repeat, repeat;'>
+<div style='width:calc(100% - 30px);aspect-ratio:2/1;margin:15px;overflow: auto;display:flex;align-items: center;justify-content: center;flex-wrap: wrap;padding: 20px 0px 40px 0px;box-shadow: inset 0 0 5px 5px #100505;
+background: url(/assets/images/backgrounds/spookygrass.png);'>
     <a style="text-align:center;" href="slug/" class="egg">
         <img src="/assets/images/creatures/slug_egg.webp" alt="Image of a slug monster thing">
     </a>
@@ -48,4 +52,10 @@ background-repeat: no-repeat, repeat-x, no-repeat, repeat;'>
     <a style="text-align:center;" href="paynti/" class="egg">
         <img src="/assets/images/creatures/paynti_egg.webp" alt="Image of a paynti">
     </a>
+</div>
+<div style="margin:20px;">
+    <img align="right" src="/assets/images/kite/spiderkiteegg.png" style="margin:10px;">
+    <p>&emsp;Here are zome eggz i juzt took. Idk whatz in them you zhould take them yourzelf. Click one to hatch it and find out. I'm zure it'll be cool!<br>&emsp;Alzo pleaze dont take all of them. <i>I will be zad if you doooooooo</i></p>
+
+<br style="clear:both">
 </div>
