@@ -4,7 +4,9 @@ title: Happy Halloween!
 permalink: /halloween/
 noheader: true
 ---
+<link rel="preload" href="/assets/images/kite/tiny_spiderkite_throw.webp" as="image">
 <a href="/" style="padding:0;">🏠 Back Home</a>
+<img src="/assets/images/HalloweenlightsBar.gif">
 <iframe src="http://127.0.0.1:4000/assets/godot/halloweenbowl/" style="width:100%;aspect-ratio:25/17;"></iframe>
 <style>
 iframe{
@@ -42,29 +44,11 @@ padding:5px;
 <div id="box">
     
 </div>
-<script>
-window.onmessage = function(e) {
-switch (e.data){
-    case 'pudeon':
-        addImageLink(document.getElementById("box"),"","/assets/images/creatures/pudeonegg.png");
-        break;
-    case 'olimy':
-        addImageLink(document.getElementById("box"),"","/assets/images/creatures/olimyegg.png");
-        break;
-    case 'bacat':
-        addImageLink(document.getElementById("box"),"","/assets/images/creatures/bacategg.png");
-        break;
-    default:
-        break;
-}
-};
-function addImageLink(box,link,image){
-  let a = document.createElement("a");
-  a.classList.add("item");
-  a.href=link
-  let img = document.createElement("img");
-  img.src=image
-  a.appendChild(img);
-  box.appendChild(a);
-}
-</script>
+<center>
+<audio style="margin:10px;"
+controls loop autoplay
+src="/assets/music/ghostbuster.ogg"
+id="music">
+</audio>
+<script src="/assets/js/halloween.js"></script>
+</center>

@@ -4,3 +4,5 @@ url: "https://kitecreature.net"
 include: [_pages]
 sass:
   style: compressed
+plugins:
+  - jekyll-coffeescript
