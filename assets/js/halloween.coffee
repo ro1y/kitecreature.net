@@ -1,6 +1,5 @@
 ---
 ---
-document.getElementById("music").play()
 itemCount = 0
 cursorPosition = 
   x: window.screen.width/2
@@ -14,6 +13,7 @@ window.onmessage = (e) ->
     cursorPosition.x = Math.round(document.querySelector("iframe").getBoundingClientRect().left+parseInt(godotCursorPosition[0]))
     cursorPosition.y = Math.round(document.querySelector("iframe").getBoundingClientRect().top+parseInt(godotCursorPosition[1]))
   else
+    console.log(e.data)
     itemCount++
     if itemCount > 2
       kite = new kiteEgg()
@@ -23,17 +23,23 @@ window.onmessage = (e) ->
         kite.grab().then (result2) ->
           kite.throw()
     switch e.data
+      when 'candyblinkie'
+        addImageLink(document.getElementById("box"),"/assets/images/blinkies/candy.gif","/assets/images/blinkies/candy.gif")
+        break
+      when 'jackobertblinkie'
+        addImageLink(document.getElementById("box"),"/assets/images/blinkies/jackobert.gif","/assets/images/blinkies/jackobert.gif")
+        break
       when 'pudeon'
-          addImageLink(document.getElementById("box"),"","/assets/images/creatures/pudeonegg.png")
-          break
+        addImageLink(document.getElementById("box"),"","/assets/images/creatures/pudeonegg.png")
+        break
       when 'olimy'
-          addImageLink(document.getElementById("box"),"","/assets/images/creatures/olimyegg.png")
-          break
+        addImageLink(document.getElementById("box"),"","/assets/images/creatures/olimyegg.png")
+        break
       when 'bacat'
-          addImageLink(document.getElementById("box"),"","/assets/images/creatures/bacategg.png")
-          break
+        addImageLink(document.getElementById("box"),"","/assets/images/creatures/bacategg.png")
+        break
       else
-          break
+        break
 
 addImageLink = (box,link,image) ->
   a = document.createElement("a")
