@@ -1,6 +1,7 @@
 ---
 ---
 itemCount = 0
+kiteSummoned = false
 cursorPosition = 
   x: window.screen.width/2
   y: window.screen.height/2
@@ -15,13 +16,18 @@ window.onmessage = (e) ->
   else
     console.log(e.data)
     itemCount++
+    if itemCount == 2
+        document.getElementById("box").style.animation="0.7s cubic-bezier(.19,1,.22,1) 0.2s 1 normal none running notice"
+        document.getElementById("box").scrollIntoView({behavior: "smooth"})
     if itemCount > 2
-      kite = new kiteEgg()
-      peekSFX = new Audio("/assets/sfx/kitepeek.wav")
-      peekSFX.play()
-      kite.chase().then (result) ->
-        kite.grab().then (result2) ->
-          kite.throw()
+      if !kiteSummoned
+        kiteSummoned = true
+        kite = new kiteEgg()
+        peekSFX = new Audio("/assets/sfx/kitepeek.wav")
+        peekSFX.play()
+        kite.chase().then (result) ->
+          kite.grab().then (result2) ->
+            kite.throw()
     switch e.data
       when 'candyblinkie'
         addImageLink(document.getElementById("box"),"/assets/images/blinkies/candy.gif","/assets/images/blinkies/candy.gif")
@@ -30,13 +36,13 @@ window.onmessage = (e) ->
         addImageLink(document.getElementById("box"),"/assets/images/blinkies/jackobert.gif","/assets/images/blinkies/jackobert.gif")
         break
       when 'pudeon'
-        addImageLink(document.getElementById("box"),"","/assets/images/creatures/pudeonegg.png")
+        addImageLink(document.getElementById("box"),"/halloween/pudeon/","/assets/images/creatures/pudeonegg.png")
         break
       when 'olimy'
-        addImageLink(document.getElementById("box"),"","/assets/images/creatures/olimyegg.png")
+        addImageLink(document.getElementById("box"),"/halloween/olimy/","/assets/images/creatures/olimyegg.png")
         break
       when 'bacat'
-        addImageLink(document.getElementById("box"),"","/assets/images/creatures/bacategg.png")
+        addImageLink(document.getElementById("box"),"/halloween/bacat/","/assets/images/creatures/bacategg.png")
         break
       else
         break
@@ -45,6 +51,7 @@ addImageLink = (box,link,image) ->
   a = document.createElement("a")
   a.classList.add("item")
   a.href = link
+  a.target = "_blank"
   img = document.createElement("img")
   img.src = image
   box.appendChild(a.appendChild(img).parentNode)
@@ -72,10 +79,11 @@ class kiteEgg
     return new Promise (resolve, reject) ->
       chaseLoop = () ->
         thisKite.direction = Math.atan2(cursorPosition.y-thisKite.position.y,cursorPosition.x-thisKite.position.x)
-        thisKite.position.x += Math.cos(thisKite.direction)*4
-        thisKite.position.y += Math.sin(thisKite.direction)*4
+        thisKite.position.x += Math.cos(thisKite.direction)*6
+        thisKite.position.y += Math.sin(thisKite.direction)*6
         thisKite.kiteDiv.style.top = "#{thisKite.position.y-28}px";thisKite.kiteDiv.style.left = "#{thisKite.position.x-28}px"
-        if Math.sqrt( Math.abs(cursorPosition.y-thisKite.position.y)^2+Math.abs(cursorPosition.x-thisKite.position.x)^2 )<1
+        thisKite.kiteDiv.onmouseover = (e) =>
+          thisKite.kiteDiv.onmouseover = null
           stepSFX.pause()
           playing = false
           resolve "Gotcha!"
@@ -102,11 +110,11 @@ class kiteEgg
       document.body.appendChild(fakeCursor)
       throwOffset = 0
       throwLoop = () ->
-        throwOffset+=4
+        throwOffset+=8
         fakeCursor.style.top = "#{thisKite.position.y-22-throwOffset}px";fakeCursor.style.left = "#{thisKite.position.x-22+throwOffset}px"
         if thisKite.position.y-22-throwOffset<-32
           playing = false
-          window.location.replace("https://webring.yesterweb.org/noJS/index.php?d=rand")
+          window.location.href = "https://webring.yesterweb.org/noJS/index.php?d=rand"
         if !playing then return
         window.requestAnimationFrame(throwLoop)
       window.requestAnimationFrame(throwLoop)
