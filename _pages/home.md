@@ -25,9 +25,23 @@ noheader: true
 ---
 
 ### Webrings
-
+<style>
+#ncring td, #ncring th, #ncring table{
+	border:0 !important;
+}
+</style>
+<div markdown=1 style="display:flex;flex-wrap:wrap;">
+<div markdown=1 style="flex:1;min-width: max-content;">
 **Yesterweb:** [Back](https://webring.yesterweb.org/noJS/index.php?d=prev&url=https://kitecreature.net/%20) · [Random](https://webring.yesterweb.org/noJS/index.php?d=rand&url=https://kitecreature.net/%20) · [Next](https://webring.yesterweb.org/noJS/index.php?d=next&url=https://kitecreature.net/%20)  
 **Hotline:** [Back](https://hotlinewebring.club/kite/next) · [Next](https://hotlinewebring.club/kite/previous)
+</div>
+<div style="flex:1;min-width: max-content;">
+	<div id='ncring'>
+		<script type="text/javascript" src="https://neocreatives.neocities.org/onionring-variables.js"></script>
+		<script type="text/javascript" src="https://neocreatives.neocities.org/onionring-widget.js"></script>
+	</div>
+</div>
+</div>
 
 ---
 <p markdown="1" style="display:grid;grid-template-columns: repeat(auto-fill,minmax(100px,1fr));">
