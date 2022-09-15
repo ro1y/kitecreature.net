@@ -10,4 +10,5 @@ gem "jekyll"
 gem 'jekyll-sass-converter'
 gem 'jekyll-redirect-from'
 gem 'jekyll-coffeescript'
+gem 'jekyll-loading-lazy'
 gem "webrick"
