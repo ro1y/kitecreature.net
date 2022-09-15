@@ -8,4 +8,5 @@ git_source(:github) {|repo_name| "https://github.com/ro1y/kitecreature.net" }
 
 gem "jekyll"
 gem 'jekyll-sass-converter'
+gem 'jekyll-redirect-from'
 gem "webrick"
