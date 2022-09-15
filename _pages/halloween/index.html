@@ -1,0 +1,73 @@
+---
+layout: default
+title: Happy Halloween!
+permalink: /halloween/
+noheader: true
+---
+<link rel="preload" href="/assets/images/kite/tiny_spiderkite_throw.gif" as="image">
+<a href="/" style="padding:0;">🏠 Back Home</a>
+<img src="/assets/images/HalloweenlightsBar.gif">
+<iframe src="http://127.0.0.1:4000/assets/godot/halloweenbowl/" style="width:100%;aspect-ratio:25/17;"></iframe>
+<style>
+iframe{
+    margin-bottom:10px;
+}
+#box{
+    box-shadow: inset 0 0 5px 5px #100505;
+    display:block;
+    padding:10px;
+    width:100%;
+    aspect-ratio:2/1;
+    margin:auto;
+    background:url(/assets/images/backgrounds/candy.png);
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item{
+animation: zoomin 0.5s cubic-bezier(.18,.89,.32,1.28);
+display: inline-block;
+padding:5px;
+}
+@keyframes zoomin{
+    0%{
+        transform:scale(0%);
+    }
+    100%{
+        transform:scale(100%);
+    }
+}
+@keyframes notice{
+    0%{
+	transform:scale(100%);
+    }
+    50%{
+	transform:scale(110%);
+    }
+    100%{
+	transform:scale(100%);
+    }
+}
+</style>
+<div style="display:flex;flex-wrap:wrap;justify-content: center;">
+  <div style="width:40%;min-width:200px;">
+    <h4><center>Your Bag</center></h4>
+    <div id="box">
+        
+    </div>
+  </div>
+  <div style="flex:1;min-width:200px;padding:0.5em;">
+    <p>&emsp;A bowl sits along with many halloween decorations. There is a note saying "Take <u><strong>two!</strong></u>" Drag two items from the bowl into your bag and then click on one to open it.</p>
+  </div>
+</div>
+
+<center>
+<audio style="margin:10px;"
+controls loop autoplay
+src="/assets/music/ghostbuster.ogg"
+id="music">
+</audio>
+<script src="/assets/js/halloween.js"></script>
+</center>
