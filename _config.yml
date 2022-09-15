@@ -7,3 +7,6 @@ sass:
 plugins:
   - jekyll-redirect-from
   - jekyll-coffeescript
+exclude:
+  - _pages/halloween
+  - assets/godot/halloweenbowl
