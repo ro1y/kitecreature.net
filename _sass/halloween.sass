@@ -2,46 +2,46 @@ html
 	background: linear-gradient(#0000,#0008), url("/assets/images/backgrounds/halloween-ground.gif") bottom, url("/assets/images/backgrounds/halloween-moon.gif"), linear-gradient(#0000,#000e,#000f), url("/assets/images/backgrounds/halloween-stars.gif")
 	background-repeat: no-repeat, repeat-x, no-repeat, no-repeat, repeat
 	background-attachment: fixed
+	body
+		#main
+			#mainContent
+				.content
+					background: #100505
+					color: #ff4500
+					border-image-source: url("/assets/images/borders/halloween-border.svg")
+					h1, h2, h3
+						font-family: serif
+						letter-spacing: 0.2em
+						color: #ff00cb
+					a
+						color: #ff00cb
+					hr
+						border-top-color: orangered
+					blockquote
+						border-left: 3px solid orangered;
+			#mainSidebar
+				.content
+					background: #100505
+					border-color: #ff00cb
+					color: orange
+					h2
+						color: orangered
+					h3
+						background: #0000
+						color: #ce00a4
+						border-bottom: 2px solid #ce00a4
+					a
+						border: 0
+						border-radius: 2px
+						margin: 4px 2px
+						&:nth-child(even)
+							background: linear-gradient(90deg, #790072 50%, #ce00a4 50%) 48px 48px
+							background-size: 48px
 
-body
-	#mainContent
-		.content
-			background: #100505
-			color: #ff4500
-			border-image-source: url("/assets/images/borders/halloween-border.svg")
-			h1, h2, h3
-				font-family: serif
-				letter-spacing: 0.2em
-				color: #ff00cb
-			a
-				color: #ff00cb
-			hr
-				border-top-color: orangered
-			blockquote
-				border-left: 3px solid orangered;
-	#mainSidebar
-		.content
-			background: #100505
-			border-color: #ff00cb
-			color: orange
-			h2
-				color: orangered
-			h3
-				background: #0000
-				color: #ce00a4
-				border-bottom: 2px solid #ce00a4
-			a
-				border: 0
-				border-radius: 2px
-				margin: 8px 4px
-				&:nth-child(even)
-					background: linear-gradient(90deg, #790072 50%, #ce00a4 50%) 48px 48px
-					background-size: 48px
-
-				&:nth-child(odd)
-					background: linear-gradient(90deg,#ad2f00 50%,orangered 50%) 48px 48px
-					background-size: 48px
-			&:before
-				border-left-color: #ff00cb
-			&:after
-				border-left-color: #100505
+						&:nth-child(odd)
+							background: linear-gradient(90deg,#ad2f00 50%,orangered 50%) 48px 48px
+							background-size: 48px
+					&:before
+						border-left-color: #ff00cb
+					&:after
+						border-left-color: #100505

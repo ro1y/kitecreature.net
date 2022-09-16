@@ -10,15 +10,14 @@
 	<script data-goatcounter="https://roly.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   </head>
   <body>
-    <div id="mainHeader">
-      <header class="content" style="padding:0.25em;">
-        <h1><img src="/assets/images/HalloweenLOGO.svg" alt="KiteCreature.net"></h1>
-        <hr style="display:none;">
-      </header>
-    </div>
-    <div id="mainSidebar">
-      <nav class="content">
-		<div id="navStation">
+	<div id="main">
+		<div id="mainHeader">
+			<header class="content" style="padding:0.25em;">
+				<h1><img src="/assets/images/HalloweenLOGO.svg" alt="KiteCreature.net"></h1>
+			</header>
+		</div>
+		<div id="mainSidebar">
+		<nav class="content">
 			<h2>Menu</h2>
 			<h3>Main</h3>
 			<a href="/">☆Homepage</a>
@@ -31,28 +30,28 @@
 			<a href="/greenhouse/">☆Greenhouse</a> 
 			<a href="/buttons/">☆Buttons</a>
 			<a href="/links/">☆Links</a>
+		</nav>
 		</div>
-      </nav>
-    </div>
-    <div id="mainContent">
-      <div class="content">
-		<header>
-			{% if page.noheader != true %}
-			<h1>{{ page.title }}</h1>
-			{% endif %}
-		</header>				
-		<main>
-			{{ content }}
-		</main>
-		<hr>
-		<footer>
-		<img src="/rolymicrobar.gif" style="margin-right:auto;">
-		<a href="https://tumblr.kitecreature.net/">Tumblr</a>&nbsp;//&nbsp;
-		<a href="https://twitter.com/_ro1y/">Twitter</a>&nbsp;//&nbsp;
-		<a href="https://github.com/ro1y/kitecreature.net">Source Code</a>
-		</footer>
-      </div>
-    </div>
+		<div id="mainContent">
+		<div class="content">
+			<header>
+				{% if page.noheader != true %}
+				<h1>{{ page.title }}</h1>
+				{% endif %}
+			</header>				
+			<main>
+				{{ content }}
+			</main>
+			<hr>
+			<footer>
+			<img src="/rolymicrobar.gif" style="margin-right:auto;">
+			<a href="https://tumblr.kitecreature.net/">Tumblr</a>&nbsp;//&nbsp;
+			<a href="https://twitter.com/_ro1y/">Twitter</a>&nbsp;//&nbsp;
+			<a href="https://github.com/ro1y/kitecreature.net">Source Code</a>
+			</footer>
+		</div>
+		</div>
+	</div>
   </body>
 </html>
 
