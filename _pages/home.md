@@ -4,9 +4,10 @@ title: 🦇Welcome!🦇
 permalink: /
 noheader: true
 ---
+<!--
 > ### 🎃Happy Halloween!
 > I zet up a bowl at [/Halloween/](/halloween/)! Make zure to get zome ztuff from there. **Alzo only take two, no more than thatt!!**
-  
+-->
 # 🦇Welcome!🦇
 ![ Kite Creature Bouncy <](/assets/images/kite/spiderkite.png)
 &emsp;Happy halloween! My name iz Roly. I'm ztill getting everything zet up for halloween. You know like getting candy, coztumez, etc.  

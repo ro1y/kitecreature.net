@@ -5,4 +5,9 @@ include: [_pages]
 sass:
   style: compressed
 plugins:
+  - jekyll-redirect-from
   - jekyll-coffeescript
+  - jekyll-loading-lazy
+exclude:
+  - _pages/halloween
+  - assets/godot/halloweenbowl
