@@ -67,7 +67,7 @@ GEM
     rexml (3.2.5)
     rouge (3.30.0)
     safe_yaml (1.0.5)
-    sassc (2.4.0)
+    sassc (2.1.0-x86_64-linux)
       ffi (~> 1.9)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
@@ -83,6 +83,7 @@ DEPENDENCIES
   jekyll-loading-lazy
   jekyll-redirect-from
   jekyll-sass-converter
+  sassc (~> 2.1.0)
   webrick
 
 BUNDLED WITH
